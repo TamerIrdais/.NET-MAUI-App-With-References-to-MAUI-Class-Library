@@ -48,19 +48,19 @@
    <ItemGroup>
       <ProjectReference Include="..\MauiLib1\MauiLib1.csproj" />
       <Reference Include="MauiLib1" Condition="$(TargetFramework.Equals('net6.0'))">
-         <HintPath>C:\Users\Tamer\source\repos\MauiLib1\bin\Debug\net6.0\MauiLib1.dll</HintPath>
+         <HintPath>..\MauiLib1\bin\Debug\net6.0\MauiLib1.dll</HintPath>
       </Reference>
       <Reference Include="MauiLib1.Android" Condition="$(TargetFramework.StartsWith('net6.0-android'))">
-         <HintPath>C:\Users\Tamer\source\repos\MauiLib1\bin\Debug\net6.0-android\MauiLib1.Android.dll</HintPath>
+         <HintPath>..\MauiLib1\bin\Debug\net6.0-android\MauiLib1.Android.dll</HintPath>
       </Reference>
       <Reference Include="MauiLib1.iOS" Condition="$(TargetFramework.StartsWith('net6.0-ios'))">
-         <HintPath>C:\Users\Tamer\source\repos\MauiLib1\bin\Debug\net6.0-ios\MauiLib1.iOS.dll</HintPath>
+         <HintPath>..\MauiLib1\bin\Debug\net6.0-ios\MauiLib1.iOS.dll</HintPath>
       </Reference>
       <Reference Include="MauiLib1.macOS" Condition="$(TargetFramework.StartsWith('net6.0-maccatalyst'))">
-         <HintPath>C:\Users\Tamer\source\repos\MauiLib1\bin\Debug\net6.0-maccatalyst\MauiLib1.macOS.dll</HintPath>
+         <HintPath>..\MauiLib1\bin\Debug\net6.0-maccatalyst\MauiLib1.macOS.dll</HintPath>
       </Reference>
       <Reference Include="MauiLib1.Windows" Condition="$(TargetFramework.Contains('windows'))">
-         <HintPath>C:\Users\Tamer\source\repos\MauiLib1\bin\Debug\net6.0-windows10.0.19041.0\MauiLib1.Windows.dll</HintPath>
+         <HintPath>..\MauiLib1\bin\Debug\net6.0-windows10.0.19041.0\MauiLib1.Windows.dll</HintPath>
       </Reference>
    </ItemGroup>
 

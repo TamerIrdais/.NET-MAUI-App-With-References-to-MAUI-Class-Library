@@ -17,52 +17,52 @@
 
    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0|AnyCPU'">
       <DefineConstants>$(DefineConstants)TRACE</DefineConstants>
-      <!--<TargetName>MauiLib1</TargetName>-->
+      <TargetName>MauiLib1</TargetName>
    </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0|AnyCPU'">
       <DefineConstants>$(DefineConstants)TRACE</DefineConstants>
-      <!--<TargetName>MauiLib1</TargetName>-->
+      <TargetName>MauiLib1</TargetName>
    </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-android|AnyCPU'">
       <DefineConstants>$(DefineConstants)TRACE</DefineConstants>
-      <!--<TargetName>MauiLib1.Android</TargetName>-->
+      <TargetName>MauiLib1.Android</TargetName>
    </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-android|AnyCPU'">
       <DefineConstants>$(DefineConstants)TRACE</DefineConstants>
-      <!--<TargetName>MauiLib1.Android</TargetName>-->
+      <TargetName>MauiLib1.Android</TargetName>
    </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-ios|AnyCPU'">
       <DefineConstants>$(DefineConstants)TRACE</DefineConstants>
-      <!--<TargetName>MauiLib1.iOS</TargetName>-->
+      <TargetName>MauiLib1.iOS</TargetName>
    </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-ios|AnyCPU'">
       <DefineConstants>$(DefineConstants)TRACE</DefineConstants>
-      <!--<TargetName>MauiLib1.iOS</TargetName>-->
+      <TargetName>MauiLib1.iOS</TargetName>
    </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-maccatalyst|AnyCPU'">
       <DefineConstants>$(DefineConstants)TRACE</DefineConstants>
-      <!--<TargetName>MauiLib1.macOS</TargetName>-->
+      <TargetName>MauiLib1.macOS</TargetName>
    </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-maccatalyst|AnyCPU'">
       <DefineConstants>$(DefineConstants)TRACE</DefineConstants>
-      <!--<TargetName>MauiLib1.macOS</TargetName>-->
+      <TargetName>MauiLib1.macOS</TargetName>
    </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-windows10.0.19041.0|AnyCPU'">
       <DefineConstants>$(DefineConstants)TRACE</DefineConstants>
-      <!--<TargetName>MauiLib1.Windows</TargetName>-->
+      <TargetName>MauiLib1.Windows</TargetName>
    </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-windows10.0.19041.0|AnyCPU'">
       <DefineConstants>$(DefineConstants)TRACE</DefineConstants>
-      <!--<TargetName>MauiLib1.Windows</TargetName>-->
+      <TargetName>MauiLib1.Windows</TargetName>
    </PropertyGroup>
 
    <ItemGroup Condition="$(TargetFramework.StartsWith('net6.0-android')) != true">
